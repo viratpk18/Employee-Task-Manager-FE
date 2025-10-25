@@ -203,20 +203,6 @@ const Login = () => {
               {isSignUp ? 'Sign in here' : 'Create an account'}
             </button>
           </div>
-
-          {!isSignUp && (
-            <div className="mt-6 text-center">
-            <p className="text-sm text-gray-600 dark:text-gray-400">
-              Demo Credentials:
-            </p>
-            <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">
-              Admin: admin@example.com / admin123
-            </p>
-            <p className="text-xs text-gray-500 dark:text-gray-500">
-              Employee: employee@example.com / emp123
-            </p>
-          </div>
-          )}
         </div>
 
         <p className="text-center text-sm text-white">
